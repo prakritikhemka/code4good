@@ -21,6 +21,18 @@ if($result)
 echo "<script type=text/javascript> alert('$msg'); </script>";
 
 }
+
+if (isset($_SESSION['id']))
+{
+$uid=$_SESSION['id'];
+$q="select name from users where uid='$uid'";
+$res=mysql_query($q);
+$row=mysql_fetch_array($res);
+$s=$row['name'];
+echo "<center><p style='font-size:19px'>Welcome you are logged in as $s!(Teacher)</p></center>";
+echo "<p style='font-size:20px; font-weight:strong;'align='right'><a href='logout.php'>Logout</a></p>";
+}
+
 ?>
 <!DOCTYPE HTML>
 <html lang="en">

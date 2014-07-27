@@ -144,17 +144,21 @@ $(function ()
                 <div class="col-lg-12">
 			 <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="https://cloud.saplumira.com/open?key=53D45EFD5EC5787CE10000000A4E4243&type=HANALYTIC" class="btn btn-default btn-lg"><span class="network-name">Teacher's review from CC</span></a>
+                                <a href="https://cloud.saplumira.com/open?key=53D45EFD5EC5787CE10000000A4E4243&type=HANALYTIC" class="btn btn-default btn-lg"><span class="network-name">Teacher's review</span></a>
                             </li>
 							<li>
                                 <a href="https://cloud.saplumira.com/open?key=53D4DD8E5EC5787CE10000000A4E4243&type=HANALYTIC" class="btn btn-default btn-lg"><span class="network-name">State Wise</span></a>
                             </li>
                             <li>
-                                <a href="https://cloud.saplumira.com/open?key=53D48F495EC5787CE10000000A4E4243&type=HANALYTIC" class="btn btn-default btn-lg"> <span class="network-name">Teacher's review from Trainers</span></a>
+                                <a href="https://cloud.saplumira.com/open?key=53D48F495EC5787CE10000000A4E4243&type=HANALYTIC" class="btn btn-default btn-lg"> <span class="network-name">Teacher's review</span></a>
                             </li>
 							<li>
-                                <a href="https://cloud.saplumira.com/open?key=53D4699B75F3787CE10000000A4E4243&type=HANALYTIC" class="btn btn-default btn-lg"> <span class="network-name">Teacher's review from Trainers</span></a>
+                                <a href="https://cloud.saplumira.com/open?key=53D4699B75F3787CE10000000A4E4243&type=HANALYTIC" class="btn btn-default btn-lg"> <span class="network-name">Class wise</span></a>
                             </li>
+							<li>
+                                <a href="https://cloud.saplumira.com/open?key=53D49AF675F3787CE10000000A4E4243&type=HANALYTIC" class="btn btn-default btn-lg"> <span class="network-name">Subject wise</span></a>
+                            </li>
+							
 			</ul>
 		</div>
 		</div>

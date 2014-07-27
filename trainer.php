@@ -37,7 +37,7 @@ $result = mysql_query($q);
     <link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-        padding-top: 20px;
+        padding-top: 0px;
         padding-bottom: 20px;
         background-color: #f5f5f5;
       }
@@ -162,8 +162,8 @@ $q="select name from users where uid='$uid'";
 $res=mysql_query($q);
 $row=mysql_fetch_array($res);
 $s=$row['name'];
-echo "Welcome you are logged in as $s!";
-echo "<p align='right'><a href='logout.php'>Logout</a></p>";
+echo "<center><p style='font-size:19px'>Welcome you are logged in as $s!(Trainer)</p></center>";
+echo "<p style='font-size:20px; font-weight:strong;'align='right'><a href='logout.php'>Logout</a></p>";
 
 }
 ?>

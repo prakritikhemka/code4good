@@ -26,9 +26,8 @@ $q="select name from users where uid='$uid'";
 $res=mysql_query($q);
 $row=mysql_fetch_array($res);
 $s=$row['name'];
-echo "Welcome you are logged in as $s!";
-echo "<p align='right'><a href='logout.php'>Logout</a></p>";
-}
+echo "<center><p style='font-size:19px'>Welcome you are logged in as $s!(Coordinator)</p></center>";
+echo "<p style='font-size:20px; font-weight:strong;'align='right'><a href='logout.php'>Logout</a></p>";}
 ?>
 <!DOCTYPE HTML>
 <html lang="en">
@@ -85,7 +84,7 @@ echo "<p align='right'><a href='logout.php'>Logout</a></p>";
 	
   </head>
 
-  <body>
+  <body background="img/bg.jpg">
 <script type='text/javascript'src='http://maps.google.com/maps/api/js?sensor=true'></script>
 <script type='text/javascript'>
 
