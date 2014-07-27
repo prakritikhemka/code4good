@@ -1,0 +1,29 @@
+<html>
+<head><title>HOME</title></head>
+<body>
+<?php
+$db=mysqli_connect("localhost","root","","placement");
+if (mysqli_connect_errno()) {
+			echo "Failed to connect to MySQL: " . mysqli_connect_error();
+			}	
+$query="select * from company";
+$result=mysqli_query($db,$query);
+if(!$result)
+	{
+		exit "ERROR!!!";
+	}
+echo "Hello World";
+$number_of_rows=mysqli_num_rows($result);
+if($number_of_rows==0)
+	print "NO COMPANY VISITS IN SHORT";
+else
+	{
+	$row=mysqli_fetch_array($result);
+	$company=$row['company'];
+	$date=CONVERT(VARCHAR,$row['date'],10);
+	echo("<br>".$company."<br>".$date."<br>");
+	}
+
+?>
+</body>
+</html>
